@@ -137,7 +137,6 @@ img {
     margin-right: 0;
 }
 
-
 .header-contact-link {
     font-family: 'Roboto';
     font-style: normal;
@@ -152,7 +151,15 @@ img {
 /* HERO */
 .hero {
     background-color: var(--bg-hero);
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    min-height: 600px;
+    max-width: 1600px;
     padding: 200px 0;
+    margin: 0 auto;
 }
 
 .hero-title {
